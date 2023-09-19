@@ -60,7 +60,7 @@ const page = () => {
               Tweet
             </button>
           </div>
-          <button className="w-full flex items-center space-x-2 rounded-3xl m-4 p-4 text-2xl text-center hover:bg-white-10 transition ">
+          <button className="w-full flex items-center space-x-2 rounded-3xl m-4 p-4 text-2xl text-center hover:bg-white/10 transition duration-200 justify-between ">
             <div className="flex items-center space-x-2">
             <div className="rounded-full bg-slate-400 w-12 h-12"></div>
             <div className="text-left text-sm">
