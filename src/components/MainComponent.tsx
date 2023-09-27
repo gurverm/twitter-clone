@@ -37,7 +37,7 @@ const MainComponent = () => {
               <div className="w-10 h-10 bg-slate-200 rounded-full" />
             </div>
             <div className="flex flex-col">
-              <div className="flex items-center justify-between">
+              <div className="flex items-center w-full justify-between">
                 <div className="flex items-center space-x-1 w-full">
                   <div className="font-bold">Club of Coders</div>
                   <div className="text-gray-500">@clubodcoderscom</div>
@@ -50,29 +50,29 @@ const MainComponent = () => {
                   <BsThreeDots />
                 </div>
               </div>
-            </div>
-            <div className="text-white text-base">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-              veritatis quia pariatur officia adipisci, est, aspernatur illo
-              odio aliquid accusantium, tenetur possimus. Aspernatur perferendis
-              quia totam tenetur, laudantium quaerat explicabo.
-            </div>
-            <div className="bg-slate-400 aspect-square w-full h-80 rounded-xl mt-2"></div>
-            <div className="flex items-center justify-start space-x-20 mt-2 w-full">
-              <div className="rounded-full hover:bg-black/10 transition duration-200 cursor-pointer p-2">
-                <BsChat />
+              <div className="text-white text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                veritatis quia pariatur officia adipisci, est, aspernatur illo
+                odio aliquid accusantium, tenetur possimus. Aspernatur
+                perferendis quia totam tenetur, laudantium quaerat explicabo.
               </div>
-              <div className="rounded-full hover:bg-black/10 transition duration-200 cursor-pointer p-2">
-                <AiOutlineRetweet />
-              </div>
-              <div className="rounded-full hover:bg-black/10 transition duration-200 cursor-pointer p-2">
-                <AiOutlineHeart />
-              </div>
-              <div className="rounded-full hover:bg-black/10 transition duration-200 cursor-pointer p-2">
-                <IoStatsChart />
-              </div>
-              <div className="rounded-full hover:bg-black/10 transition duration-200 cursor-pointer p-2">
-                <FiShare />
+              <div className="bg-slate-400 aspect-square w-full h-80 rounded-xl mt-2"></div>
+              <div className="flex items-center justify-start space-x-20 mt-2 w-full">
+                <div className="rounded-full hover:bg-black/10 transition duration-200 cursor-pointer p-2">
+                  <BsChat />
+                </div>
+                <div className="rounded-full hover:bg-black/10 transition duration-200 cursor-pointer p-2">
+                  <AiOutlineRetweet />
+                </div>
+                <div className="rounded-full hover:bg-black/10 transition duration-200 cursor-pointer p-2">
+                  <AiOutlineHeart />
+                </div>
+                <div className="rounded-full hover:bg-black/10 transition duration-200 cursor-pointer p-2">
+                  <IoStatsChart />
+                </div>
+                <div className="rounded-full hover:bg-black/10 transition duration-200 cursor-pointer p-2">
+                  <FiShare />
+                </div>
               </div>
             </div>
           </div>
