@@ -2,8 +2,16 @@ import { BsDot, BsChat, BsThreeDots } from "react-icons/bs";
 import { AiOutlineRetweet, AiOutlineHeart } from "react-icons/ai";
 import { IoStatsChart } from "react-icons/io5";
 import { FiShare } from "react-icons/fi";
+import { cookies } from "next/headers";
+import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
 
 const MainComponent = () => {
+  const supabaseClient = createServerComponentClient({
+    cookies,
+  });
+  // const { data: userData, error: userError } =
+  //   await supabaseClient.auth.getUser();
+
   return (
     <main className="flex w-[50%] h-full flex-col min-h-screen border-l-[0.5px] border-r-[0.5px] border-gray-600">
       <h1 className="text-xl font-bold p-6 backdrop-blur bg-black/10 sticky top-0">
@@ -20,7 +28,7 @@ const MainComponent = () => {
           <div className="w-full justify-between items-stretch py-4 flex">
             <div></div>
             <div className=" max-w-[100px]">
-              <button className="rounded-full bg-primary px-4 py-2 w-full text-lg font-bold text-center hover:bg-opacity-70 transition duration-200">
+              <button className="rounded-full bg-twitterColor px-4 py-2 w-full text-lg font-bold text-center hover:bg-opacity-70 transition duration-200">
                 Tweet
               </button>
             </div>

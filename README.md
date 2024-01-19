@@ -42,6 +42,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 -shadcn/ui
 -pnpm
 -docker
+-sonner(toaster)
 
 before auth gen types for tables
     -npx supabase login
